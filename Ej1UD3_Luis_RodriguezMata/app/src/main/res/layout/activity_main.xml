@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/insert_name"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/et_name"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_name"
+                android:hint="@string/write_here"/>
+
+            <TextView
+                android:id="@+id/tv_lastname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/insert_lastname"
+                android:layout_below="@+id/et_name"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+
+            <EditText
+                android:id="@+id/et_lastname"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_lastname"
+                android:hint="@string/write_here"/>
+
+
+            <TextView
+                android:id="@+id/tv_fecha_inicio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/et_lastname"
+                android:text="@string/insert_fecha_incio"
+                android:layout_marginTop="10dp"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/et_fecha_inicio"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:hint="dd mm yyyy"
+                android:textAlignment="center"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/et_lastname"/>
+
+            <TextView
+                android:id="@+id/tv_fecha_final"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_fecha_inicio"
+                android:text="@string/insert_fecha_final"
+                android:layout_marginTop="20dp"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/et_fecha_final"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:hint="dd mm yyyy"
+                android:textAlignment="center"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/et_fecha_inicio"/>
+
+            <TextView
+                android:id="@+id/tv_legal_age"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_fecha_final"
+                android:text="@string/legal_age"
+                android:layout_marginTop="20dp"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <CheckBox
+                android:id="@+id/cb_legal_age"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="200dp"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/et_fecha_final"
+                android:layout_toRightOf="@id/tv_legal_age"/>
+
+
+            <TextView
+                android:id="@+id/tv_nationality"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_legal_age"
+                android:text="@string/nationality"
+                android:layout_marginTop="25dp"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+
+            <RadioGroup
+                android:id="@+id/rg_nationality"
+                android:layout_below="@id/tv_nationality"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <!--Para poner botones de selección única debemos primero reunir estos controles
+                anidados dentro de un RadioGroup. En este RadioGroup estableceremos también si
+                los botones estarán alineados verticalmente u horizontalmente-->
+                <RadioButton android:id="@+id/rb_frances"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/frances"/>
+
+                <RadioButton android:id="@+id/rb_espanol"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/espanol"/>
+
+                <RadioButton android:id="@+id/rb_ingles"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ingles"/>
+
+                <RadioButton android:id="@+id/rb_aleman"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/aleman"/>
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/tv_learn_language"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rg_nationality"
+                android:text="@string/learn_language"
+                android:layout_marginTop="20dp"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <Spinner
+                android:id="@+id/sp_learn_language"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/rg_nationality"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="100dp"
+                >
+
+
+
+
+
+
+
+            </Spinner>
+
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</LinearLayout>

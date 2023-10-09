@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FormularioSencillo</string>
+    <string name="insert_name">Introduce tu nombre</string>
+    <string name="insert_lastname">Introduce tu Apellido</string>
+    <string name="write_here">Escribe aquí</string>
+    <string name="insert_fecha_incio">Introduzca fecha de inicio</string>
+    <string name="insert_fecha_final">Insert ending date</string>
+    <string name="legal_age">Mayoria de edad</string>
+    <string name="nationality">Nacionalidad</string>
+    <string name="frances">Frances</string>
+    <string name="espanol">Español</string>
+    <string name="ingles">Ingles</string>
+    <string name="aleman">Aleman</string>
+    <string name="chino">Chino</string>
+    <string name="ruso">Ruso</string>
+    <string name="learn_language">Lenguaje a aprender</string>
+    <string name="data_consent">Consiento el uso datos con fines comerciales</string>
+    <string name="birthdate">Fecha de nacimiento</string>
+    <string name="accept">Aceptar</string>
+    <string name="secondary_education">Educación secundaria obligatoria</string>
+    <string name="baccalaureate">Bachillerato o ciclo formativo de grado medio</string>
+    <string name="grado">Estudios de grado o ciclo formativo de grado superior</string>
+    <string name="postgrado">Estudios de postgrado</string>
+    <string name="nivel_estudios">Nivel de estudios</string>
+
+    <string-array name="language_to_learn">
+        <item>Frances</item>
+        <item>Español</item>
+        <item>Ingles</item>
+        <item>Aleman</item>
+        <item>Chino</item>
+        <item>Ruso</item>
+    </string-array>
+
+</resources>
