@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">EjemploActividades</string>
+    <string name="nombre">Name</string>
+    <string name="edad">Age</string>
+    <string name="consiente">The user allows the use of this data</string>
+    <string name="no_consiente">The user does not allow the use of this data</string>
+    <string name="editar">Edit</string>
+</resources>

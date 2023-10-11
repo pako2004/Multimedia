@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">FormularioSencillo</string>
+    <string name="insert_name">Insert your name</string>
+    <string name="insert_lastname">Insert your Last name</string>
+    <string name="write_here">Write here</string>
+    <string name="insert_fecha_incio">Insert starting date</string>
+    <string name="insert_fecha_final">Insert ending date</string>
+    <string name="legal_age">Legal age</string>
+    <string name="nationality">Nationality</string>
+    <string name="frances">French</string>
+    <string name="espanol">Spaniard</string>
+    <string name="ingles">English</string>
+    <string name="aleman">German</string>
+    <string name="chino">Chinese</string>
+    <string name="ruso">Russian</string>
+    <string name="learn_language">Language to learn</string>
+    <string name="data_consent">I accept the use of my data for marketing use</string>
+    <string name="birthdate">Birthdate</string>
+    <string name="accept">Accept</string>
+    <string name="secondary_education">Compulsory secondary education</string>
+    <string name="baccalaureate">Baccalaureate or intermediate level training cycle</string>
+    <string name="grado">Degree studies or higher degree training cycle</string>
+    <string name="postgrado">Postgrads studies</string>
+    <string name="nivel_estudios">Studies level</string>
+
+    <string-array name="language_to_learn">
+        <item>French</item>
+        <item>Spanish</item>
+        <item>English</item>
+        <item>German</item>
+        <item>Chinese</item>
+        <item>Russian</item>
+    </string-array>
+
+</resources>

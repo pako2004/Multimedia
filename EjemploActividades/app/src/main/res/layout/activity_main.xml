@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/tv_nombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="@string/nombre" />
+
+            <EditText
+                android:id="@+id/etNombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Write Here"
+                android:layout_below="@id/tv_edad"
+                android:layout_alignParentRight="true"/>
+
+            <TextView
+                android:id="@+id/tv_edad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="@string/edad" />
+
+            <EditText
+                android:id="@+id/etEdad"
+                android:hint="Write Here"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_edad"
+                android:layout_alignParentRight="true"/>
+
+
+            <TextView
+                android:id="@+id/tv_consentimiento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="El usuario consiente el uso de datos" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+            <Button
+                android:id="@+id/bt_editar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="@string/editar"
+                android:onClick="editar"/>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>
