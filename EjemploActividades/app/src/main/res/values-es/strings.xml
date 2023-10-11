@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EjemploActividades</string>
+    <string name="nombre">Nombre</string>
+    <string name="edad">Edad</string>
+    <string name="consiente">EL usuario permite el uso de esta informacion</string>
+    <string name="no_consiente">EL no  usuario permite el uso de esta informacion</string>
+    <string name="editar">Editar</string>
+
+
+</resources>

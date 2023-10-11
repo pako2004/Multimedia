@@ -65,11 +65,11 @@
                 android:id="@+id/et_fecha_inicio"
                 android:layout_width="180dp"
                 android:layout_height="wrap_content"
-                android:textSize="20dp"
+                android:layout_below="@id/et_lastname"
+                android:layout_alignParentRight="true"
                 android:hint="dd mm yyyy"
                 android:textAlignment="center"
-                android:layout_alignParentRight="true"
-                android:layout_below="@id/et_lastname"/>
+                android:textSize="20dp" />
 
             <TextView
                 android:id="@+id/tv_fecha_final"
